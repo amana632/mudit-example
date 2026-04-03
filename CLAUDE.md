@@ -11,6 +11,7 @@ python3 -m venv venv && source venv/bin/activate && pip install -r requirements.
 # Run pipeline
 python scrape.py                                          # defaults from config.yaml
 python scrape.py --hashtags "#travel,#adventure"          # override hashtags
+python scrape.py --output leads.csv                       # custom output file
 python scrape.py --max-profiles 50                        # override limit
 python scrape.py --headless                               # headless mode (less safe)
 python scrape.py --config /path/to/custom.yaml            # custom config
