@@ -1,0 +1,19 @@
+hashtags:
+  - "#travelcreator"
+  - "#grouptrips"
+  - "#hostedtrips"
+  - "#travelwithme"
+  - "#triporganizer"
+
+settings:
+  max_profiles_per_run: 30
+  max_posts_per_hashtag: 50
+  delay_between_profiles: [2, 5]
+  cooldown_every: 10
+  cooldown_duration: [30, 60]
+  daily_cap_warning: 80
+  headless: false
+
+output:
+  directory: "./output"
+  filename_prefix: "leads"
